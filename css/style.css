@@ -1,3 +1,58 @@
-* {
-  margin: 0;
+:root {
+  --dark: #1a1a1a;
+  --white: #ffffff;
+  --light-grey: #efefef;
+  --gold: #ecd5a7;
+}
+
+body {
+  background-color: var(--dark) !important;
+  font-family: "Oswald", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.bg-light-grey {
+  background-color: var(--light-grey) !important;
+}
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.badge {
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 0.5rem 1.8rem;
+  border-radius: 0.2rem;
+}
+
+.btn-secondary {
+  background-color: var(--dark) !important;
+}
+
+.btn-gold {
+  background-color: var(--gold) !important;
+  color: var(--dark);
+}
+
+.blog-info {
+  color: var(--white);
+  bottom: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
