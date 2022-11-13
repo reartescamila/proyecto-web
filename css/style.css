@@ -5,9 +5,26 @@
   --gold: #ecd5a7;
 }
 
-body {
+/* nav bs */
+.nav-link {
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.bg-dark {
   background-color: var(--dark) !important;
-  font-family: "Oswald", sans-serif !important;
+}
+
+.navbar {
+  min-height: 5rem;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: var(--dark);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 h1,
@@ -17,8 +34,39 @@ h4,
 h5,
 h6,
 .navbar-brand {
-  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
 }
+
+.text-gold {
+  color: var(--gold);
+}
+
+a {
+  color: var(--white);
+}
+
+/* fin nav bs */
+
+/* index */
+
+section {
+  padding: 6rem 0;
+}
+
+#slider {
+  padding: 0;
+}
+
+.text.light {
+  color: var(--white);
+}
+
+.bg-light {
+  background-color: var(--white);
+}
+
+/* fin index */
 
 .bg-light-grey {
   background-color: var(--light-grey) !important;
