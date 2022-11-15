@@ -36,6 +36,7 @@ h6,
 .navbar-brand {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 .text-gold {
@@ -51,12 +52,15 @@ a {
 /* index */
 
 section {
-  padding: 6rem 0;
+  padding: 0;
 }
 
 #slider {
   padding: 0;
+  margin-bottom: 50px;
 }
+
+/* blog */
 
 .text.light {
   color: var(--white);
@@ -66,10 +70,10 @@ section {
   background-color: var(--white);
 }
 
-/* fin index */
+/* pricing */
 
 .bg-light-grey {
-  background-color: var(--light-grey) !important;
+  background-color: var(--light-grey);
 }
 .bg-gold {
   background-color: var(--gold);
@@ -87,20 +91,24 @@ section {
 }
 
 .btn-secondary {
-  background-color: var(--dark) !important;
+  background-color: var(--dark);
 }
 
 .btn-gold {
-  background-color: var(--gold) !important;
+  background-color: var(--gold);
   color: var(--dark);
 }
 
+/* about us */
+
 .blog-info {
   color: var(--white);
-  bottom: 1rem;
+  bottom: 0;
+  left: 1.5rem;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
+.form-control {
+  padding: 0.5rem 0.5rem;
+  font-size: 300;
+  border: 0;
 }

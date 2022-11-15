@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <title>Bravo Agency</title>
+    <!-- link bs css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- navegador bs-->
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand link-light" href="./index.html">ProgramaYa!</a>
+        <a class="navbar-brand link-light" href="./index.html">Bravo Agency</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler bg-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -26,7 +36,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <ion-icon name="menu-outline"></ion-icon>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
@@ -35,32 +45,25 @@
                 class="nav-link link-light"
                 aria-current="page"
                 href="./index.html"
-                >Inicio</a
+                >Home</a
               >
             </li>
             <li class="nav-item" px-3>
               <a class="nav-link link-light" href="./paginas/quienesSomos.html"
-                >Quienes Somos</a
+                >About us</a
               >
             </li>
             <li class="nav-item" px-5>
-              <a
-                class="nav-link link-light"
-                href="./paginas/nuestrosProgramas.html"
-              >
-                Nuestros Programas
+              <a class="nav-link link-light" href="./nuestrosProgramas.html">
+                Blog
               </a>
             </li>
             <li class="nav-item" px-3>
-              <a
-                class="nav-link link-light"
-                href="./paginas/caracteristicas.html"
-                >Características</a
-              >
+              <a class="nav-link link-light" href="./precios.html">Pricing</a>
             </li>
             <li class="nav-item" px-3>
               <a class="nav-link link-light" href="./paginas/contacto.html"
-                >Contacto</a
+                >Start a project</a
               >
             </li>
           </ul>
@@ -75,7 +78,7 @@
       <div class="container">
         <h2 class="pt-5">Pricing designed for your business</h2>
         <p class="lead text-muted">
-          the leading experts in web development recommend us.
+          The leading experts in web development recommend us.
         </p>
         <!-- card precios-->
         <div class="row mt-6">
@@ -96,9 +99,18 @@
                 <p class="lead text-muted mb-4">Plus $8 for every employee</p>
                 <p class="lead font-weight-bold">Top features</p>
                 <ul class="list-unstyled mb-5">
-                  <li>Professionally designed & built website</li>
-                  <li>Monthly website update</li>
-                  <li>Social media management</li>
+                  <li>
+                    <ion-icon name="checkmark-circle" class="mx-1"></ion-icon
+                    >Professionally designed & built website
+                  </li>
+                  <li>
+                    <ion-icon name="checkmark-circle" class="mx-1"></ion-icon
+                    >Monthly website update
+                  </li>
+                  <li>
+                    <ion-icon name="checkmark-circle" class="mx-1"></ion-icon
+                    >Social media management
+                  </li>
                   <a href="./contacto.html" class="btn btn-secondary mt-4"
                     >Start your free trial</a
                   >
@@ -124,9 +136,27 @@
                 <p class="lead text-muted mb-4">Plus $8 for every employee</p>
                 <p class="lead font-weight-bold text-light">Top features</p>
                 <ul class="list-unstyled mb-5 text-light">
-                  <li>Professionally designed & built website</li>
-                  <li>Monthly website update</li>
-                  <li>Social media management</li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-circle"
+                      class="mx-1 text-gold"
+                    ></ion-icon
+                    >Professionally designed & built website
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-circle"
+                      class="mx-1 text-gold"
+                    ></ion-icon
+                    >Monthly website update
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-circle"
+                      class="mx-1 text-gold"
+                    ></ion-icon
+                    >Social media management
+                  </li>
                   <a href="./contacto.html" class="btn btn-gold mt-4"
                     >Start your free trial</a
                   >
@@ -139,11 +169,36 @@
         <!-- fin card precios-->
       </div>
     </section>
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-6">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mx-2"><ion-icon name="logo-instagram"></ion-icon></li></li>
+              <li class="list-inline-item mx-2"><ion-icon name="logo-twitter"></ion-icon></li>
+              <li class="list-inline-item mx-2"><ion-icon name="logo-facebook"></ion-icon></li>
+            </ul>
+          </div>
+          <div class="col-md-6 text-align-right">
+            <small> Created by Camila Reartes</small>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
+    ></script>
+    <!-- script ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
   </body>
 </html>
