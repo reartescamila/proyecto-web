@@ -25,7 +25,11 @@
     <!-- navegador bs-->
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand link-light" href="./index.html">Bravo Agency</a>
+        <a
+          class="navbar-brand link-light animate__animated animate__rubberBand"
+          href="./index.html"
+          >Bravo Agency</a
+        >
         <button
           class="navbar-toggler bg-light"
           type="button"
@@ -37,31 +41,28 @@
         >
           <ion-icon name="menu-outline"></ion-icon>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a
-                class="nav-link link-light"
+                class="nav-link text-gold"
                 aria-current="page"
-                href="./index.html"
+                href="../index.html"
                 >Home</a
               >
             </li>
-            <li class="nav-item" px-3>
-              <a class="nav-link link-light" href="./paginas/quienesSomos.html"
-                >About us</a
-              >
+            <li class="nav-item px-3">
+              <a class="nav-link text-gold" href="./aboutUs.html">About us</a>
             </li>
-            <li class="nav-item" px-5>
-              <a class="nav-link link-light" href="./nuestrosProgramas.html">
-                Blog
-              </a>
+            <li class="nav-item px-3">
+              <a class="nav-link text-gold" href="./blog.html"> Blog </a>
             </li>
-            <li class="nav-item" px-3>
-              <a class="nav-link link-light" href="./precios.html">Pricing</a>
+            <li class="nav-item px-3">
+              <a class="nav-link text-gold" href="./pricing.html">Pricing</a>
             </li>
-            <li class="nav-item" px-3>
-              <a class="nav-link link-light" href="./paginas/contacto.html"
+            <li class="nav-item px-3">
+              <a class="nav-link text-gold" href="./startAproject.html"
                 >Start a project</a
               >
             </li>
@@ -122,22 +123,33 @@
         </div>
       </div>
     </section>
+    <!-- footer -->
     <footer class="bg-dark text-light py-4">
       <div class="container">
-        <div class="row justify-content-between">
+        <div class="row">
           <div class="col-md-6">
             <ul class="list-inline mb-0">
-              <li class="list-inline-item mx-2"><ion-icon name="logo-instagram"></ion-icon></li></li>
-              <li class="list-inline-item mx-2"><ion-icon name="logo-twitter"></ion-icon></li>
-              <li class="list-inline-item mx-2"><ion-icon name="logo-facebook"></ion-icon></li>
+              <li class="list-inline-item mx-2">
+                <a href="https://www.instagram.com/camilareartes/"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li class="list-inline-item mx-2">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </li>
+              <li class="list-inline-item mx-2">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </li>
             </ul>
           </div>
-          <div class="col-md-6 text-align-right">
+          <div class="col-md-6">
             <small> Created by Camila Reartes</small>
           </div>
         </div>
       </div>
     </footer>
+
+    <!-- script bs -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

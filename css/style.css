@@ -12,12 +12,20 @@
   font-size: 0.8rem;
 }
 
+.nav-link:hover{
+  color: var(--white);
+}
+
 .bg-dark {
   background-color: var(--dark) !important;
 }
 
 .navbar {
   min-height: 5rem;
+}
+
+a:hover{
+  color: var(--white);
 }
 
 body {
@@ -111,4 +119,8 @@ section {
   padding: 0.5rem 0.5rem;
   font-size: 300;
   border: 0;
+}
+
+h3 {
+  animatationanimate__backInDown
 }

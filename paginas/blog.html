@@ -24,55 +24,59 @@
     />
   </head>
   <body>
-    <!-- navegador bs-->
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand link-light" href="../index.html">Bravo Agency</a>
-        <button
-          class="navbar-toggler bg-light"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <ion-icon name="menu-outline"></ion-icon>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item px-3">
-              <a class="nav-link" aria-current="page" href="../index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../paginas/quienesSomos.html"
-                >About us</a
-              >
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../paginas/nuestrosProgramas.html">
-                Blog
-              </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../paginas/precios.html">Pricing</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link text-gold" href="../paginas/contacto.html"
-                >Start a project</a
-              >
-            </li>
-          </ul>
-        </div>
+   <!-- navegador bs-->
+   <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a
+        class="navbar-brand link-light animate__animated animate__rubberBand"
+        href="./index.html"
+        >Bravo Agency</a
+      >
+      <button
+        class="navbar-toggler bg-light"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item px-3">
+            <a
+              class="nav-link text-gold"
+              aria-current="page"
+              href="../index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-gold" href="./aboutUs.html">About us</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-gold" href="./blog.html"> Blog </a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-gold" href="./pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-gold" href="./startAproject.html"
+              >Start a project</a
+            >
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- fin navegador bs -->
+    </div>
+  </nav>
+  <!-- fin navegador bs -->
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 mt-4">
             <h2 class="text-light">Selected Works</h2>
             <p class="lead text-muted">
               We work with existing brands to build amazing products. Keep calm,
@@ -89,8 +93,6 @@
                   <p class="text-muted mb-0"> A list of upcoming and past skateboarding industry events and competitions.</p>
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
             <div>
               <img
                 src="../img/portafolio2.jpg"
@@ -102,8 +104,10 @@
                   <p class="text-muted mb-0">Here are our top phone camera picks at the moment</p>
               </div>
             </div>
+
           </div>
-          <div class="col-md-6">
+          
+          <div class="col-md-6 mt-4">
             <div>
               <img
                 src="../img/portafolio3.jpg"
@@ -115,8 +119,6 @@
                   <p class="text-muted mb-0">Coworking and co-living is another new coworking concept in the industry.</p>
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
             <div>
               <img
                 src="../img/portafolio4.jpg"
@@ -132,22 +134,32 @@
         </div>
       </div>
 
-      <div class="text-center mt-6">
+      <div class="text-center my-5">
         <p class="text-gold mb-0">We have got more</p>
-        <a href="./contacto.html" class="text-muted">View all of our projects<ion-icon name="arrow-forward-outline" class="mx-1"></ion-icon></a>
+        <a href="./startAproject.html" class="text-muted">View all of our projects<ion-icon name="arrow-forward-outline" class="mx-1"></ion-icon></a>
       </div>
     </section>
+
+    <!-- footer -->
     <footer class="bg-dark text-light py-4">
       <div class="container">
-        <div class="row justify-content-between">
+        <div class="row">
           <div class="col-md-6">
             <ul class="list-inline mb-0">
-              <li class="list-inline-item mx-2"><ion-icon name="logo-instagram"></ion-icon></li></li>
-              <li class="list-inline-item mx-2"><ion-icon name="logo-twitter"></ion-icon></li>
-              <li class="list-inline-item mx-2"><ion-icon name="logo-facebook"></ion-icon></li>
+              <li class="list-inline-item mx-2">
+                <a href="https://www.instagram.com/camilareartes/"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li class="list-inline-item mx-2">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </li>
+              <li class="list-inline-item mx-2">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </li>
             </ul>
           </div>
-          <div class="col-md-6 text-align-right">
+          <div class="col-md-6">
             <small> Created by Camila Reartes</small>
           </div>
         </div>
