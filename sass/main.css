@@ -143,4 +143,9 @@ section {
   display: flex;
   flex-direction: column;
   font-size: 12px;
+}
+
+.factCount {
+  font-size: 30px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
