@@ -1,0 +1,146 @@
+/* nav bs */
+.nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.bg-dark {
+  background-color: #1a1a1a !important;
+}
+
+.navbar {
+  min-height: 5rem;
+}
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: #1a1a1a;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.text-gold {
+  color: #ecd5a7;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* fin nav bs */
+/* index */
+section {
+  padding: 0;
+}
+
+#slider {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+/* blog */
+.text.light {
+  color: #ffffff;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+/* pricing */
+.bg-light-grey {
+  background-color: #efefef;
+}
+
+.bg-gold {
+  background-color: #ecd5a7;
+}
+
+.badge {
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 0.5rem 1.8rem;
+  border-radius: 0.2rem;
+}
+
+.btn-secondary {
+  background-color: #1a1a1a;
+}
+
+.btn-gold {
+  background-color: #ecd5a7;
+  color: #1a1a1a;
+}
+
+/* about us */
+.blog-info {
+  color: #ffffff;
+  bottom: 0;
+  left: 1.5rem;
+}
+
+.form-control {
+  padding: 0.5rem 0.5rem;
+  font-size: 300;
+  border: 0;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}/*# sourceMappingURL=main.css.map */

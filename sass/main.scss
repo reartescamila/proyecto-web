@@ -1,0 +1,128 @@
+$dark: #1a1a1a;
+$white: #ffffff;
+$light-grey: #efefef;
+$gold: #ecd5a7;
+
+/* nav bs */
+
+.nav-link {
+  color: $white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  &:hover {
+    color: $white;
+  }
+}
+
+.bg-dark {
+  background-color: $dark !important;
+}
+
+.navbar {
+  min-height: 5rem;
+  &-brand {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
+
+a:hover {
+  color: $white;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: $dark;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
+
+.text-gold {
+  color: $gold;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}
+
+/* fin nav bs */
+
+/* index */
+
+section {
+  padding: 0;
+}
+
+#slider {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+/* blog */
+
+.text.light {
+  color: $white;
+}
+
+.bg-light {
+  background-color: $white;
+}
+
+/* pricing */
+
+.bg-light-grey {
+  background-color: $light-grey;
+}
+.bg-gold {
+  background-color: $gold;
+}
+
+.badge {
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 0.5rem 1.8rem;
+  border-radius: 0.2rem;
+}
+
+.btn-secondary {
+  background-color: $dark;
+}
+
+.btn-gold {
+  background-color: $gold;
+  color: $dark;
+}
+
+/* about us */
+
+.blog-info {
+  color: $white;
+  bottom: 0;
+  left: 1.5rem;
+}
+
+.form-control {
+  padding: 0.5rem 0.5rem;
+  font-size: 300;
+  border: 0;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
