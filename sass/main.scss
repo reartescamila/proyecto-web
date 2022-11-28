@@ -93,16 +93,18 @@ section {
   line-height: 1.5;
 }
 
-.btn {
+.sizebtn {
   padding: 0.5rem 1.8rem;
   border-radius: 0.2rem;
 }
 
 .btn-secondary {
+  @extend .sizebtn;
   background-color: $dark;
 }
 
 .btn-gold {
+  @extend .sizebtn;
   background-color: $gold;
   color: $dark;
 }
@@ -134,8 +136,4 @@ section {
 
 .reasons {
   align-items: center;
-}
-
-.row-gap{ 0 0 40px o;
-
 }

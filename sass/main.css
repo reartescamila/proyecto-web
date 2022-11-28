@@ -112,7 +112,7 @@ section {
   line-height: 1.5;
 }
 
-.btn {
+.sizebtn, .btn-gold, .btn-secondary {
   padding: 0.5rem 1.8rem;
   border-radius: 0.2rem;
 }
