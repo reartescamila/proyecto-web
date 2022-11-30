@@ -112,7 +112,9 @@ section {
   line-height: 1.5;
 }
 
-.sizebtn, .btn-gold, .btn-secondary {
+.sizebtn,
+.btn-gold,
+.btn-secondary {
   padding: 0.5rem 1.8rem;
   border-radius: 0.2rem;
 }
@@ -152,4 +154,4 @@ section {
 
 .reasons {
   align-items: center;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
